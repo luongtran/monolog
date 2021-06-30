@@ -1,26 +1,25 @@
 {
-    "name": "monolog/monolog",
+    "name": "blpraveen/monolog",
     "description": "Sends your logs to files, sockets, inboxes, databases and various web services",
     "keywords": ["log", "logging", "psr-3"],
-    "homepage": "https://github.com/Seldaek/monolog",
+    "homepage": "https://github.com/blpraveen/monolog",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "Jordi Boggiano",
-            "email": "j.boggiano@seld.be",
-            "homepage": "https://seld.be"
+            "name": "B L Praveen",
+            "email": "blpraveen2004@gmail.com"
         }
     ],
     "require": {
         "php": ">=7.2",
-        "psr/log": "^1.0.1"
+        "psr/log": "^1.0.0"
     },
     "require-dev": {
         "aws/aws-sdk-php": "^2.4.9 || ^3.0",
         "doctrine/couchdb": "~1.0@dev",
         "elasticsearch/elasticsearch": "^7",
-        "mongodb/mongodb": "^1.8",
+        "mongodb/mongodb": "^1.0",
         "graylog2/gelf-php": "^1.4.2",
         "php-amqplib/php-amqplib": "~2.4",
         "php-console/php-console": "^3.1.3",
