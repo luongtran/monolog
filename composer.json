@@ -13,20 +13,20 @@
     ],
     "require": {
         "php": ">=7.2",
-        "psr/log": "^1.0.0"
+        "psr/log": "^3.0.0"
     },
     "require-dev": {
         "aws/aws-sdk-php": "^2.4.9 || ^3.0",
         "doctrine/couchdb": "~1.0@dev",
         "elasticsearch/elasticsearch": "^7",
         "mongodb/mongodb": "^1.0",
-        "graylog2/gelf-php": "^1.4.2",
+        "graylog2/gelf-php": "^2.0.1",
         "php-amqplib/php-amqplib": "~2.4",
         "php-console/php-console": "^3.1.3",
         "phpspec/prophecy": "^1.6.1",
         "phpunit/phpunit": "^8.5",
         "predis/predis": "^1.1",
-        "rollbar/rollbar": "^1.3",
+        "rollbar/rollbar": "^4.0.1",
         "ruflin/elastica": ">=0.90 <7.0.1",
         "swiftmailer/swiftmailer": "^5.3|^6.0",
         "phpstan/phpstan": "^0.12.59"
